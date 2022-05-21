@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Familiares</title>
+
+    <link rel="stylesheet" href="D:/Escritorio/Python/desafio_entregable1/desafio_entregable1/usuarios/templates/style.css">
+</head>
+<body>
+    {% for familiar in datos %}
+        <p>{{familiar.nombre}}, {{familiar.edad}} años, Fecha de nacimiento: {{familiar.nacimiento}}</p>
+    {% endfor %}
+<a href="inicio">Volver</a>
+</body>
+</html>
