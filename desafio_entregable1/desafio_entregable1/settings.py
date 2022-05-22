@@ -55,7 +55,7 @@ ROOT_URLCONF = 'desafio_entregable1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["usuarios/template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
